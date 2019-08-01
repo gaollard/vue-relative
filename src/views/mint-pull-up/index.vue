@@ -20,8 +20,8 @@
 </template>
 
 <script>
-import Vue from "vue";
-import { Loadmore } from "mint-ui";
+import Vue from 'vue';
+import { Loadmore } from 'mint-ui';
 Vue.component(Loadmore.name, Loadmore);
 
 export default {
@@ -31,7 +31,7 @@ export default {
       pageIndex: 1,
       pageSize: 20,
       allLoaded: false,
-      topStatus: ""
+      topStatus: ''
     };
   },
   mounted() {
